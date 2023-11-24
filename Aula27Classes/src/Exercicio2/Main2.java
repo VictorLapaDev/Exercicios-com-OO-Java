@@ -47,11 +47,9 @@ public class Main2 {
 					for(int i = 0; i < listaCateg.size(); i++) {
 						categExibir += "Nome da " +(i+1)+"º categoria: "+listaCateg.get(i).getNome()+"\n";
 					}
-					JOptionPane.showInternalMessageDialog(null, "Escolha uma das categorias a seguir: \n" + categExibir);
-					
 					//escolhendo a opção	
-					int optionCateg = Integer.parseInt(JOptionPane.showInputDialog("Digite o número da categoria desejada: "));
-					optionCateg -= 1;
+					int optionCateg = Integer.parseInt(JOptionPane.showInputDialog(null, "Escolha uma das categorias a seguir inserindo seu número: \n" + categExibir));
+					optionCateg --;
 					
 					Produto2 newProd = new Produto2(marca, modelo, preco, listaCateg.get(optionCateg));
 					listaProd.add(newProd);
