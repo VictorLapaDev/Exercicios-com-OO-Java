@@ -24,8 +24,8 @@ Também é pedido ao usuário qual ação ele quer realizar:
 
 ![image](https://github.com/lapa22/Exercicios-com-OO-Java/assets/141652519/791eff39-6c94-4c5b-b9e3-e381f158b809)
 <br><br>
-Para abrir o projeto:
-1- Baixe o jdk.
-2- Baixe o projeto.
-3- Baixe alguma IDE compátivel como: Eclipse, NetBeans ou VSCode(junto das extensões para Java).
-4- Abra o projeto na IDE.
+Para abrir o projeto:<br>
+1- Baixe o jdk.<br>
+2- Baixe o projeto.<br>
+3- Baixe alguma IDE compátivel como: Eclipse, NetBeans ou VSCode(junto das extensões para Java).<br>
+4- Abra o projeto na IDE.<br>
